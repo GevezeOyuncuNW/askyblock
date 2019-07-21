@@ -1601,7 +1601,7 @@ public class IslandCmd implements CommandExecutor, TabCompleter {
                     Util.sendMessage(player, plugin.myLocale(player.getUniqueId()).helpColor + "/" + label + " kick <player>: " + ChatColor.WHITE + plugin.myLocale(player.getUniqueId()).islandhelpKick);
                 }
                 if (VaultHelper.checkPerm(player, Settings.PERMPREFIX + "team.join")) {
-                    Util.sendMessage(player, plugin.myLocale(player.getUniqueId()).helpColor + "/" + label + " <accept/reject>: " + ChatColor.WHITE + plugin.myLocale(player.getUniqueId()).islandhelpAcceptReject);
+                    Util.sendMessage(player, plugin.myLocale(player.getUniqueId()).helpColor + "/" + "ada" + " <kabul/reddet>: " + ChatColor.YELLOW + plugin.myLocale(player.getUniqueId()).islandhelpAcceptReject);
                 }
                 if (VaultHelper.checkPerm(player, Settings.PERMPREFIX + "team.makeleader")) {
                     Util.sendMessage(player, plugin.myLocale(player.getUniqueId()).helpColor + "/" + label + " makeleader <player>: " + ChatColor.WHITE + plugin.myLocale(player.getUniqueId()).islandhelpMakeLeader);
